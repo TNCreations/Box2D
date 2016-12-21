@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="94" height="50" tilewidth="24" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="tree" tilewidth="48" tileheight="64" tilecount="1" columns="1">
-  <image source="tree.png" width="48" height="64"/>
+  <image source="E:/Box2D/core/assets/tree.png" width="48" height="64"/>
  </tileset>
  <tileset firstgid="2" name="treeLarge" tilewidth="72" tileheight="96" tilecount="1" columns="1">
-  <image source="treeLarge.png" width="72" height="96"/>
+  <image source="E:/Box2D/core/assets/treeLarge.png" width="72" height="96"/>
  </tileset>
- <imagelayer name="Image Layer 1" visible="0" offsetx="-80" offsety="0">
-  <image source="C:/Users/Thomas/Desktop/gameMap.png" width="2320" height="1682"/>
- </imagelayer>
  <layer name="Trees" width="94" height="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
