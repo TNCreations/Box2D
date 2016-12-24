@@ -105,10 +105,6 @@ public class Box2D extends ApplicationAdapter implements InputProcessor {
         batch.draw(txInvIcon,fInvPosX - 32, fInvPosY - 32);
         batch.end();
         treeRender.render();
-//        SR.begin(ShapeType.Filled);
-//        SR.setColor(Color.PINK);
-//        SR.rect(fInvPosX,fInvPosY,32,32);
-//        SR.end();
         b2dr.render(world, camera.combined.scl(PPM));
     }
 
